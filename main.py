@@ -31,20 +31,29 @@ def check_intramurals(e):
         team = ""
         if grade == 7:
             team = "Blue Bears"
+            img_file = "blue_bears.JPG.jpg"
+
         elif grade == 8:
             team = "Red Bulldogs"
+            img_file = "red_bulldogs.JPG.jpg"
         elif grade == 9:
             team = "Yellow Tigers"
+            img_file = "yellow_tigers.JPG.jpg"
         elif grade == 10:
            
             if section == "Ruby":
                 team = "Blue Bears"
+                img_file = "blue_bears.JPG.jpg"
             elif section == "Topaz":
                 team = "Red Bulldogs"
+                img_file = "red_bulldogs.JPG.jpg"
+
             elif section == "Sapphire":
                 team = "Green Hornets"
+                img_file = "green_hornets.JPG.jpg"
             elif section == "Emerald":
                 team = "Yellow Tigers"
+                img_file = "yellow_tigers.JPG.jpg"
         
         display("Congratulations! You are part of the " + team, target="result")
 
@@ -71,4 +80,5 @@ def display_players():
 
 
 if document.getElementById("playerList"):
+
     display_players()
