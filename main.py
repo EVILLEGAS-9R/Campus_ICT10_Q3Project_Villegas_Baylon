@@ -61,7 +61,7 @@ def check_intramurals(e):
 def display_players():
   
     classmates = [
-        "Juan Dela Cruz", "Dylan Harper", "Victor Wenbanyama", 
+        "Joshua Ronnel Ortiz", "Dylan Harper", "Victor Wenbanyama", 
         "Brook Lopez", "Mark Villanueva", "Dwight Ramos", 
         "Alpen Sengun", "Elena Smith", "Miguel Tan", "Lebron James"
     ]
@@ -82,3 +82,4 @@ def display_players():
 if document.getElementById("playerList"):
 
     display_players()
+
